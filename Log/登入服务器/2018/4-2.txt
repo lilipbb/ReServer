@@ -1,0 +1,10 @@
+22:04:35---未将对象引用设置到对象的实例。   在 LoginServer.Server.RepetThread()
+22:04:37---登入服务器的TCP端口启动成功
+22:04:37---登入服务器的UDP端口启动成功
+22:05:00---未将对象引用设置到对象的实例。   在 LoginServer.Server.RepetThread()
+22:06:00---未将对象引用设置到对象的实例。   在 LoginServer.Server.RepetThread()
+22:07:00---未将对象引用设置到对象的实例。   在 LoginServer.Server.RepetThread()
+22:08:00---未将对象引用设置到对象的实例。   在 LoginServer.Server.RepetThread()
+22:09:00---未将对象引用设置到对象的实例。   在 LoginServer.Server.RepetThread()
+22:10:00---未将对象引用设置到对象的实例。   在 LoginServer.Server.RepetThread()
+22:11:00---未将对象引用设置到对象的实例。   在 LoginServer.Server.RepetThread()

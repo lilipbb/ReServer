@@ -1,0 +1,20 @@
+@echo off 
+net start mysqlpbb
+
+set EMAIL_ACCOUNT=279717335@qq.com
+set EMAIL_PASS=669988pbb
+set year=%date:~0,4% 
+set month=%date:~5,2% 
+set day=%date:~8,2% 
+set scx_db=backup_%year: =%-%month: =%-%day: =%.sql 
+set MY_PATH=%~dp0
+
+cd /d C:\Program Files\MySQL\MySQL Server 5.7\bin
+md %MY_PATH%\mysqlbackup
+mysqldump -uroot -p669988Pbb diunileimu user >%MY_PATH%\mysqlbackup\%scx_db%
+cd /d %MY_PATH%
+echo %MY_PATH%
+blat -install smtp.163.com lilipbb@163.com 3 25
+blat 1.txt -to lilipbb@163.com -s %scx_db% -u lilipbb@163.com -pw 669988pbb -attach mysqlbackup\%scx_db%
+pause
+rem ªπ‘≠÷∏¡Ó mysql -uroot -p669988Pbb diunileimu<xx.sql --default-character-set=utf8

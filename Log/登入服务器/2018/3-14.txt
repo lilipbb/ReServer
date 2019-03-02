@@ -1,0 +1,71 @@
+19:18:51---登入服务器的TCP端口启动成功
+19:18:51---登入服务器的UDP端口启动成功
+19:23:59---登入服务器的TCP端口启动成功
+19:23:59---登入服务器的UDP端口启动成功
+19:34:32---登入服务器的TCP端口启动成功
+19:34:32---登入服务器的UDP端口启动成功
+19:48:30---登入服务器的TCP端口启动成功
+19:48:30---登入服务器的UDP端口启动成功
+19:51:46---登入服务器的TCP端口启动成功
+19:51:46---登入服务器的UDP端口启动成功
+19:51:55---已添加了具有相同键的项。   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 PBB.MySql.MySqlFactory`1.Insert(T t)
+19:51:58---已添加了具有相同键的项。   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 PBB.MySql.MySqlFactory`1.Insert(T t)
+19:52:52---已添加了具有相同键的项。   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 PBB.MySql.MySqlFactory`1.Insert(T t)
+19:54:47---登入服务器的TCP端口启动成功
+19:54:47---登入服务器的UDP端口启动成功
+19:57:05---登入服务器的TCP端口启动成功
+19:57:05---登入服务器的UDP端口启动成功
+19:57:33---111
+20:04:17---登入服务器的TCP端口启动成功
+20:04:17---登入服务器的UDP端口启动成功
+20:04:34---已添加了具有相同键的项。   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 PBB.MySql.MySqlFactory`1.Insert(T t)
+20:06:00---登入服务器的TCP端口启动成功
+20:06:00---登入服务器的UDP端口启动成功
+20:06:13---已添加了具有相同键的项。   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 PBB.MySql.MySqlFactory`1.Insert(T t)
+20:10:00---登入服务器的TCP端口启动成功
+20:10:00---登入服务器的UDP端口启动成功
+20:10:20---已添加了具有相同键的项。   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 PBB.MySql.MySqlFactory`1.Insert(T t)
+20:10:47---已添加了具有相同键的项。   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 PBB.MySql.MySqlFactory`1.Insert(T t)
+20:13:37---登入服务器的TCP端口启动成功
+20:13:37---登入服务器的UDP端口启动成功
+20:14:00---已添加了具有相同键的项。   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 PBB.MySql.MySqlFactory`1.Insert(T t)
+20:14:33---已添加了具有相同键的项。   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 PBB.MySql.MySqlFactory`1.Insert(T t)
+20:16:17---登入服务器的TCP端口启动成功
+20:16:17---登入服务器的UDP端口启动成功
+20:16:26---已添加了具有相同键的项。   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 PBB.MySql.MySqlFactory`1.Insert(T t)
+20:22:42---登入服务器的TCP端口启动成功
+20:22:42---登入服务器的UDP端口启动成功
+20:22:58---已添加了具有相同键的项。   在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   在 PBB.MySql.MySqlFactory`1.Insert(T t)

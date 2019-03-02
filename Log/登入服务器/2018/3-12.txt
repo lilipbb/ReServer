@@ -1,0 +1,53 @@
+10:08:45---登入服务器的TCP端口启动成功
+10:08:45---登入服务器的UDP端口启动成功
+10:28:34---111
+10:28:43---登入服务器的TCP端口启动成功
+10:28:43---登入服务器的UDP端口启动成功
+10:43:04---登入服务器的TCP端口启动成功
+10:43:04---登入服务器的UDP端口启动成功
+11:57:45---登入服务器的TCP端口启动成功
+11:57:45---登入服务器的UDP端口启动成功
+12:00:28---登入服务器的TCP端口启动成功
+12:00:28---登入服务器的UDP端口启动成功
+12:03:03---登入服务器的TCP端口启动成功
+12:03:03---登入服务器的UDP端口启动成功
+12:03:57---登入服务器的TCP端口启动成功
+12:03:57---登入服务器的UDP端口启动成功
+12:06:41---登入服务器的TCP端口启动成功
+12:06:41---登入服务器的UDP端口启动成功
+12:10:52---登入服务器的TCP端口启动成功
+12:10:52---登入服务器的UDP端口启动成功
+12:11:17---内容给定关键字不在字典中。行数   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 LoginServer.Server.ReceiveUdpManage(ReceObj rec, Action`1 SendEvent, String ip)
+   在 PBB.Server.ServerBase.UdpAccept(IAsyncResult ir)
+12:14:02---登入服务器的TCP端口启动成功
+12:14:02---登入服务器的UDP端口启动成功
+12:14:28---内容给定关键字不在字典中。行数   在 System.ThrowHelper.ThrowKeyNotFoundException()
+   在 System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   在 LoginServer.Server.ReceiveUdpManage(ReceObj rec, Action`1 SendEvent, String ip)
+   在 PBB.Server.ServerBase.UdpAccept(IAsyncResult ir)
+12:15:00---登入服务器的TCP端口启动成功
+12:15:00---登入服务器的UDP端口启动成功
+12:21:59---登入服务器的TCP端口启动成功
+12:21:59---登入服务器的UDP端口启动成功
+23:20:56---登入服务器的TCP端口启动成功
+23:20:56---登入服务器的UDP端口启动成功
+23:30:44---登入服务器的TCP端口启动成功
+23:30:44---登入服务器的UDP端口启动成功
+23:30:55---111
+23:31:04---登入服务器的TCP端口启动成功
+23:31:04---登入服务器的UDP端口启动成功
+23:32:13---111
+23:32:22---登入服务器的TCP端口启动成功
+23:32:22---登入服务器的UDP端口启动成功
+23:33:19---111
+23:33:28---登入服务器的TCP端口启动成功
+23:33:28---登入服务器的UDP端口启动成功
+23:33:30---未将对象引用设置到对象的实例。   在 LoginServer.Model.User.GetMoney()
+   在 LoginServer.Model.User.GetMessage()
+   在 LoginServer.Login.LoginMes(UserPeer userpeer)
+   在 LoginServer.Server.ReceiveTcpManage(UserPeerBase userpeerbase)
+23:34:22---111
+23:34:32---登入服务器的TCP端口启动成功
+23:34:32---登入服务器的UDP端口启动成功

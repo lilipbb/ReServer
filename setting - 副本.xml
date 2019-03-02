@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--bgm:背景音乐 特性：scence适用场景名称，time:适用时间范围-->
+<root>
+  <times>
+    <time leave="1">5,9,19</time>
+    <time leave="2">5,9,18</time>
+    <time leave="3">5,8,18</time>
+    <time leave="4">4,8,18</time>
+    <time leave="5">4,7,16</time>
+  </times>
+<throwobj>
+    <obj name="throw_01" color="200 60 60">
+      <id>01</id>
+      <leave>0</leave>
+      <mass>1</mass>
+      <attack>2</attack>
+      <hitbgm>fruit</hitbgm>
+      <size>0.3</size>
+    </obj>
+    <obj name="throw_02" color="87 32 52">
+      <id>02</id>
+      <leave>0</leave>
+      <mass>01</mass>
+      <attack>03</attack>
+       <hitbgm>fruit</hitbgm>
+       <size>0.3</size>
+    </obj>
+    <obj name="throw_03" color="230 200 90">
+      <id>03</id>
+      <leave>0</leave>
+      <mass>01</mass>
+      <attack>02</attack>
+      <hitbgm>fruit</hitbgm>
+      <size>0.3</size>
+    </obj>
+    <obj name="throw_04" color="230 200 90">
+      <id>04</id>
+      <leave>0</leave>
+      <mass>01</mass>
+      <attack>03</attack>
+      <hitbgm>fruit</hitbgm>
+      <size>0.3</size>
+    </obj>
+    <obj name="throw_05" color="210 200 90">
+      <id>05</id>
+      <leave>0</leave>
+      <mass>01</mass>
+      <attack>03</attack>
+      <hitbgm>fruit</hitbgm>
+      <size>0.3</size>
+    </obj>
+    <obj name="throw_06" color="220 150 70">
+      <id>06</id>
+      <leave>0</leave>
+      <mass>01</mass>
+      <attack>03</attack>
+      <hitbgm>fruit</hitbgm>
+      <size>0.4</size>
+    </obj>
+    <obj name="throw_21" canbroken="">
+      <id>07</id>
+      <leave>1</leave>
+      <mass>4</mass>
+      <attack>04</attack>
+      <hitbgm>glass</hitbgm>
+      <size>0.4</size>
+    </obj>
+    <obj name="throw_22" canbroken="">
+      <id>08</id>
+      <leave>1</leave>
+      <mass>4</mass>
+      <attack>05</attack>
+      <hitbgm>glass</hitbgm>
+      <size>0.5</size>
+    </obj>
+    <obj name="throw_23" canbroken="">
+      <id>09</id>
+      <leave>1</leave>
+      <mass>5</mass>
+      <attack>05</attack>
+      <hitbgm>iron</hitbgm>
+      <size>0.5</size>
+    </obj>
+    <obj name="throw_24" canbroken="">
+      <id>10</id>
+      <leave>1</leave>
+      <mass>5</mass>
+      <attack>06</attack>
+       <hitbgm>iron</hitbgm>
+       <size>0.4</size>
+    </obj>
+    <obj name="throw_25" canbroken="">
+      <id>11</id>
+      <leave>1</leave>
+      <mass>5</mass>
+      <attack>06</attack>
+      <hitbgm>iron</hitbgm>
+      <size>0.5</size>
+    </obj>
+    <obj name="throw_26" canbroken="">
+      <id>12</id>
+      <mass>5</mass>
+      <leave>1</leave>
+      <attack>05</attack>
+      <hitbgm>iron</hitbgm>
+      <size>0.5</size>
+    </obj>
+    <obj name="throw_41" canbroken="">
+      <id>13</id>
+      <mass>9</mass>
+      <leave>2</leave>
+      <attack>10</attack>
+      <hitbgm>wood</hitbgm>
+      <size>0.7</size>
+    </obj>
+    <obj name="throw_42" canbroken="">
+      <id>14</id>
+      <mass>9</mass>
+      <leave>2</leave>
+      <attack>13</attack>
+      <hitbgm>wood</hitbgm>
+      <size>0.7</size>
+    </obj>
+    <obj name="throw_43" canbroken="">
+      <id>15</id>
+      <mass>10</mass>
+      <leave>2</leave>
+      <attack>12</attack>
+      <hitbgm>wood</hitbgm>
+      <size>0.8</size>
+    </obj>
+    <obj name="throw_44" canbroken="">
+      <id>16</id>
+      <mass>10</mass>
+      <leave>2</leave>
+      <attack>12</attack>
+      <hitbgm>wood</hitbgm>
+      <size>0.8</size>
+    </obj>
+    <obj name="throw_45" canbroken="">
+      <id>17</id>
+      <mass>11</mass>
+      <leave>2</leave>
+      <attack>11</attack>
+      <hitbgm>wood</hitbgm>
+      <size>0.8</size>
+    </obj>
+  </throwobj>
+  <strings language="chinese">
+    <connect>连接中</connect>
+    <apkerror>解包错误</apkerror>
+    <upDate>下载中</upDate>
+    <downloaderror>下载失败</downloaderror>
+    <downloadsuccess>下载完成</downloadsuccess>
+    <exitgame>是否退出游戏</exitgame>
+    <buttonStart>练习</buttonStart>
+    <buttonBattle>决斗</buttonBattle>
+    <buttonRank>排名</buttonRank>
+    <buttonLeave>状态</buttonLeave>
+    <buttonExit>退出</buttonExit>
+    <connecterror>连接错误</connecterror>
+    <connectstart>开始连接</connectstart>
+    <nonetworks>没有网络</nonetworks>
+    <checkver>开始检查版本</checkver>
+    <connectservererror>连接服务器失败</connectservererror>
+    <reconnect>连接失败,是否重新连接?</reconnect>
+    <initialize>初始化</initialize>
+    <myleave>当前状态</myleave>
+    <myrank>排行榜</myrank>
+    <mysetting>游戏设置</mysetting>
+    <mybattle>对战大厅</mybattle>
+    <settingbgm>背景\n音效</settingbgm>
+    <settinglanguage>语言选择</settinglanguage>
+    <settingplayerposition>人物位置</settingplayerposition>
+    <settingplayerleftright>——右边\n——左边</settingplayerleftright>
+    <settingbuttonpos>按键位置</settingbuttonpos>
+    <reselect>切换派系和更改昵称</reselect>
+    <reset>还原</reset>
+    <submit>提交</submit>
+    <creatroleselect>初始选择</creatroleselect>
+    <creatrolemes>昵      称：\n派      系:</creatrolemes>
+    <sure>确定</sure>
+    <creatrolenamenull>昵称不能为空</creatrolenamenull>
+    <creatrolenoselect>还未选择派系!</creatrolenoselect>
+    <login1>登入</login1>
+    <login2>账      号：\n密      码：</login2>
+    <login3>提示：帐号和密码只能用英文和数字</login3>
+    <reg>注册</reg>
+    <enroll>返回</enroll>
+    <minsix>最少6位</minsix>
+    <newuser>新用户</newuser>
+    <newuser1>账      号：\n密      码：\n重复密码：</newuser1>
+    <personrank>个人排行</personrank>
+    <nanzhu>菜月昴</nanzhu>
+    <aimi>爱蜜莉雅</aimi>
+    <leimu>雷姆</leimu>
+    <nickname>昵称</nickname>
+    <faction>派系</faction>
+    <winnum>击败数</winnum>
+    <rank>排名</rank>
+    <change>变更</change>
+    <get>领取</get>
+    <win>胜利</win>
+    <lose>失败</lose>
+    <reward1 select='010' money='500'>动态壁纸:\n爱蜜莉雅正装*1\n价格:圣金币*500</reward1>
+    <reward2 select='100' money='500'>动态壁纸:\n雷姆女仆装*1\n价格:圣金币*500</reward2>
+    <rewardsuccess1>购买成功！</rewardsuccess1>
+    <rewardsuccess2>安装完成后到设置-墙纸里头更换！</rewardsuccess2>
+    <rewardno>圣金币不足！</rewardno>
+    <leavemes>昵称\n等级\n体力\n力量\n防御\n战绩</leavemes>
+    <nouser>用户不存在</nouser>
+    <psderror>密码错误</psderror>
+    <unknowerror>未知错误</unknowerror>
+    <havesameuser>已有相同用户名</havesameuser>
+    <usernoempty>用户名不能为空</usernoempty>
+    <psdnoempty>密码不能为空</psdnoempty>
+    <usernamehavefeifa>账号包含非法字符</usernamehavefeifa>
+    <usercannotlesssix>用户名不能少于6个数</usercannotlesssix>
+    <psdcannotlesssix>密码不能少于6个数</psdcannotlesssix>
+    <repsdnoempty>重复密码不能为空</repsdnoempty>
+    <repsdnosame>两次输入的密码不一致</repsdnosame>
+    <psdonlybe>密码只能是数字和英文</psdonlybe>
+     <changerolemes>变更阵营将扣除当前派系人头数5！</changerolemes>
+     <send>发送</send>
+     <havefeifa>包含非法字符</havefeifa>
+      <quickjoin>快速加入</quickjoin>
+     <quickcreate>快速创建</quickcreate>
+     <join>加入</join>
+     <create>创建</create>
+     <roomname>房间名</roomname>
+     <battlenum>局数</battlenum>
+     <battleplayer>对手</battleplayer>
+     <nolimit>不限</nolimit>
+     <oneju>一局</oneju>
+     <threeju>三局两胜</threeju>
+     <fiveju>五局三胜</fiveju>
+     <updatesuccess>更新成功</updatesuccess>
+     <updatefailed>更新失败</updatefailed>
+     <createroom>创建房间</createroom>
+     <leavelimit>等级限制</leavelimit>
+     <random>随机</random>
+     <haveotheruser>有其它用户登入</haveotheruser>
+     <haveupdatetoday>每天只能换一次阵营</haveupdatetoday>
+     <createroomerror>创建房间失败</createroomerror>
+    <createroommax>房间已满</createroommax>
+    <jionroomerror>没有可入房间</jionroomerror>
+    <minselectone>最少选择一人</minselectone>
+     <exitroom>是否离开房间</exitroom>
+     <havenoroom>房间已经解散</havenoroom>
+     <havenohall>没有连接上大厅</havenohall>
+     <noreward>正在准备中！</noreward>
+     <freshen>刷新</freshen>
+      <ismax>已满</ismax>
+      <leavenoconform>等级不符合</leavenoconform>
+      <rolenoconform>角色不符合</rolenoconform>
+      <room>房间</room>
+     <roomexit>已退出房间</roomexit>
+     <roomexit1>房间已解散</roomexit1>
+     <roomready>准备完成</roomready>
+     <roomstart>开始</roomstart> 
+     <roomleave>离开房间</roomleave>
+     <roomjoin>加入房间</roomjoin>
+     <disconnect>已断开连接</disconnect>
+      <readyok>准备完毕</readyok>
+       <roominfo>房间信息</roominfo>
+      <allrank>总排行</allrank>
+      <none>无</none>
+      <battleresult>战斗结果：
+时间补正    技术补正    等级补正
+
+获得总经验：</battleresult>
+      <returnroom>是否返回房间？</returnroom>
+      <name1>昵称</name1>
+      <talk_00>我今天没吃药...感觉自己萌萌的...</talk_00>
+      <talk_01>再不开始我就要闪人了...</talk_01>
+      <money>圣金币</money>
+      <updatetime>更新时间：</updatetime>
+      <buy>购买</buy>
+      <shop>商城</shop>
+      <hasbuy>已买</hasbuy>
+      <beginupdate>开始更新</beginupdate>
+      <requireserver>需要连接服务器，是否连接?</requireserver>
+  </strings>
+  <strings language="english">
+    <connect>Connecting</connect>
+    <apkerror>Unpack Error</apkerror>
+    <upDate>Downloding</upDate>
+    <downloaderror>Download Error</downloaderror>
+    <downloadsuccess>Download Complete</downloadsuccess>
+    <exitgame>Whether to quit the game</exitgame>
+    <buttonStart>Practice</buttonStart>
+    <buttonBattle>Battle</buttonBattle>
+    <buttonRank>Rank</buttonRank>
+    <buttonLeave>MyState</buttonLeave>
+    <buttonExit>Exit</buttonExit>
+    <connecterror>Connect Error</connecterror>
+    <connectstart>Start Connect</connectstart>
+    <nonetworks>NoNetWorks</nonetworks>
+    <checkver>Start Check Version</checkver>
+    <connectservererror>Connect Server Error</connectservererror>
+    <initialize>Initialize</initialize>
+    <reconnect>Connect error,Whether to reconnect?</reconnect>
+    <initialize>Initialize</initialize>
+    <myleave>Current State</myleave>
+    <myrank>Ranking</myrank>
+    <mysetting>Game Setting</mysetting>
+    <mybattle>Battle Hall</mybattle>
+    <settingbgm>BGM\nVoice</settingbgm>
+    <settinglanguage>Language</settinglanguage>
+    <settingplayerposition>Position</settingplayerposition>
+    <settingplayerleftright>——Right\n——Left</settingplayerleftright>
+    <settingbuttonpos>Button Position</settingbuttonpos>
+    <reselect>Change nickname and faction</reselect>
+    <reset>Normal</reset>
+    <submit>Submit</submit>
+    <creatroleselect>Select Role</creatroleselect>
+    <creatrolemes>Nickname：\nFaction:</creatrolemes>
+    <sure>OK</sure>
+    <creatrolenamenull>cannot be empty</creatrolenamenull>
+    <creatrolenoselect>Have no factions!</creatrolenoselect>
+    <login1>Login</login1>
+    <login2>Username：\nPassword：</login2>
+    <login3>Tip:Can only used English and numbers</login3>
+    <reg>Reg</reg>
+    <enroll>Return</enroll>
+    <minsix>At least six bits</minsix>
+    <newuser>New User</newuser>
+    <newuser1>Username:\nPassword:\nRePass:</newuser1>
+    <personrank>Personal Rank</personrank>
+    <nanzhu>Subaru</nanzhu>
+    <aimi>Emilia</aimi>
+    <leimu>Rem</leimu>
+    <nickname>Nickname</nickname>
+    <faction>Faction</faction>
+    <winnum>Beats</winnum>
+    <rank>Ranking</rank>
+    <change>Change</change>
+    <get>Get</get>
+    <win>Win</win>
+    <lose>Lost</lose>
+     <reward1 select='010' money='500'>DynamicWallpaper:\nNormalEmilia*1\nPrice:HolyGold*500</reward1>
+    <reward2 select='100' money='500'>DynamicWallpaper:\nMaidRem*1\nPrice:HolyGold*500</reward2>
+    <rewardsuccess1>PurchaseSuccess！</rewardsuccess1>
+    <rewardsuccess2>After install,Set-replace the wallpaper！</rewardsuccess2>
+    <rewardno>Lack of HolyGold！</rewardno>
+    <leavemes>NAM\nLV\nHP\nATK\nDEF\nREC</leavemes>
+    <nouser>No Username</nouser>
+    <psderror>Password Wrong</psderror>
+    <unknowerror>Unknown Error</unknowerror>
+    <havesameuser>Have Same User</havesameuser>
+    <usernoempty>Username Is Empty</usernoempty>
+    <psdnoempty>Password Is Empty</psdnoempty>
+    <usernamehavefeifa>Uername Have Illegal</usernamehavefeifa>
+    <usercannotlesssix>Is Less Six</usercannotlesssix>
+    <psdcannotlesssix>Is Less Six</psdcannotlesssix>
+    <repsdnoempty>Repsd Is Empty</repsdnoempty>
+    <repsdnosame>Repsd Is Not Same</repsdnosame>
+    <psdonlybe>Password Only Be Letter or Num</psdonlybe>
+    <changerolemes>Change will deduction current faction five head！</changerolemes>
+     <send>send</send>
+     <havefeifa>Have illegal words</havefeifa>
+      <quickjoin>Quick Join</quickjoin>
+     <quickcreate>Quick Create</quickcreate>
+     <join>Join</join>
+     <create>Create</create>
+     <roomname>Room Name</roomname>
+     <battlenum>Count</battlenum>
+     <battleplayer>Opponent</battleplayer>
+     <nolimit>unlimited</nolimit>
+     <oneju>Only One</oneju>
+     <threeju>Three two wins</threeju>
+     <fiveju>Five three wins</fiveju>
+     <updatesuccess>Update Success</updatesuccess>
+     <updatefailed>Update Failed</updatefailed>
+     <createroom>Create Room</createroom>
+    <leavelimit>Leave Limit</leavelimit>
+    <random>Random</random>
+     <haveotheruser>Have other user</haveotheruser>
+     <haveupdatetoday>Everyday can change one</haveupdatetoday>
+     <createroomerror>Create room error</createroomerror>
+    <createroommax>Room is max</createroommax>
+    <jionroomerror>No room can join</jionroomerror>
+    <minselectone>Please Select One</minselectone>
+     <exitroom>Exit room</exitroom>
+     <havenoroom>Room is dissolution</havenoroom>
+     <havenohall>have no hall</havenohall>
+     <noreward>Being prepared！</noreward>
+     <freshen>Freshen</freshen>
+      <ismax>Ismax</ismax>
+      <leavenoconform>Leave does not conform</leavenoconform>
+      <rolenoconform>Role does not conform</rolenoconform>
+      <room>Room</room>
+     <roomexit>Has been out of the room</roomexit>
+     <roomexit1>The room has been dissolved</roomexit1>
+     <roomready>Ready</roomready>
+     <roomstart>StartGame</roomstart> 
+     <roomleave>Leave room</roomleave>
+     <roomjoin>Join room</roomjoin>
+     <disconnect>Disconnect</disconnect>
+      <readyok>ReadyOk</readyok>
+      <roominfo>RoomInfo</roominfo>
+      <allrank>AllRank</allrank>
+      <none>None</none>
+     <battleresult>Result：
+   Time        Skill      Leave
+
+Gain all exp：     </battleresult>
+     <name1>Name</name1>
+      <talk_00>today I don't have medicine, so I fell much more cute...</talk_00>
+      <talk_01>If you don't start,I will leaving...</talk_01>
+     <money>HolyGold</money>
+     <updatetime>UPDATE：</updatetime>
+      <buy>Buy</buy>
+     <shop>MALL</shop>
+     <hasbuy>Purchased</hasbuy>
+      <beginupdate>Begin Update</beginupdate>
+      <requireserver>Require Connect，Whether To Connect?</requireserver>
+</strings>
+</root>
+
